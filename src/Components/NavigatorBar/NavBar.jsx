@@ -1,5 +1,5 @@
-import './navbar.scss';
 import React, {useState} from 'react';
+import './navbar.scss';
 
 function NavBar() {
 
@@ -21,12 +21,15 @@ function NavBar() {
             <span>New and Popular</span>
             <span>My list</span>
         </div>
+        </div>
+        <div className='container'>
         <div className='right'>
             <search className='icon'/>
             <span>ABC</span>
             <notifications className="icon" />
             <img src="https://images.pexels.com/photos/6899260/pexels-photo-6899260.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
             alt="" />
+            <li className='buttons'> Sign In </li>
             <div className='profile'>
                {/* <arrowDropDown className="icon" />  */}
               <div className='option'>

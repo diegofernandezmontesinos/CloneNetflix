@@ -13,7 +13,6 @@ const Homepage = () => {
                     <img src="https://www.searchpng.com/wp-content/uploads/2019/02/Netflix-Logo-PNG-image-200x200.png"
                         alt="" />
                 </li>
-                <li className='buttons'> Sign In </li>
             </div>
             <div className='main'>
                 <div className='area'>
