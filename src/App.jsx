@@ -1,14 +1,8 @@
-import './App.css';
-import './Components/NavBar/NavBar.jsx'
+import User from './Components/user/User.js';
 
 function App() {
-
-
   return (
-    <>
-    <NavBar/>
-      
-    </>
+   <User />
   )
 }
 
