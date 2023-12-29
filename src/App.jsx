@@ -1,9 +1,18 @@
-import User from './Components/user/User.js';
+import ReactDOM from "react-dom/client";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Homepage from "./Components/Homepage/Homepage";
+import Login from "./Components/Login/Login";
 
-function App() {
+export default function App() {
   return (
-   <User />
-  )
+    <BrowserRouter>
+      <Routes>
+          <Route path="/" element={<Homepage />}/>
+          <Route path="/login" element={<Login />} />
+      </Routes>
+    </BrowserRouter>
+  );
 }
 
-export default App
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(<App />);
