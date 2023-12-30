@@ -21,20 +21,29 @@
         .left{
             display: flex;
             align-items: center;
+            width: 80%;
+
+            a{
+                color: white;
+            }
 
             img{
                 height: 25px;
+                width: auto;
                 margin-right: 40px;
-            }
+                }
             span{
                 margin-right: 20px;
                 cursor: pointer;
+                width: auto;
             }
         }
 
         .right{
            display: flex;
            align-items: center; 
+           width: 20%;
+           gap:10px;
         }
 
         .icon{
@@ -42,7 +51,7 @@
             cursor: pointer;
         }
         img{
-            width: 30px;
+            width: auto;
             height: 30px;
             border-radius: 5px;
             object-fit: cover;

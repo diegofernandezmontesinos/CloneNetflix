@@ -15,18 +15,14 @@ function NavBar() {
         <div className='left'>
             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Netflix_2015_logo.svg/2560px-Netflix_2015_logo.svg.png" 
             alt='netflix-logo'/>
-            <span>Homepage</span>
-            <span>Series</span>
-            <span>Movies</span>
-            <span>New and Popular</span>
-            <span>My list</span>
+            <span><a href="/">Homepage </a></span>
+            <span><a href="/Error">Series </a></span>
+            <span><a href="/Error">Movies </a></span>
+            <span><a href="/Error">New and Popular </a></span>
+            <span><a href="/Error">My list </a></span>
         </div>
-        </div>
-        <div className='container'>
         <div className='right'>
-            <search className='icon'/>
-            <span>ABC</span>
-            <notifications className="icon" />
+            <span>Text</span>
             <img src="https://images.pexels.com/photos/6899260/pexels-photo-6899260.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
             alt="" />
             <li className='buttons'> Sign In </li>
