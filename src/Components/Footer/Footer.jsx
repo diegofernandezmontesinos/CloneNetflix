@@ -7,31 +7,31 @@ const Footer = () => {
             <p>Questions? Call 900123456</p>
             <div className='footer-cols'>
                 <ul>
-                    <li><a href="#">FAQ</a></li>
-                    <li><a href="#">Investor Relations</a></li>
-                    <li><a href="#">Ways to Watch</a></li>
-                    <li><a href="#">Corporate Information</a></li>
-                    <li><a href="#">Netflix Originals</a></li>
+                    <li><a href="/Error">FAQ</a></li>
+                    <li><a href="/Error">Investor Relations</a></li>
+                    <li><a href="/Error">Ways to Watch</a></li>
+                    <li><a href="/Error">Corporate Information</a></li>
+                    <li><a href="/Error">Netflix Originals</a></li>
                 </ul>
                 <ul>
-                    <li><a href="#">Help Center</a></li>
-                    <li><a href="#"> Jobs </a></li>
-                    <li><a href="#"> terms of Use</a></li>
-                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="/Error">Help Center</a></li>
+                    <li><a href="/Error"> Jobs </a></li>
+                    <li><a href="/Error"> terms of Use</a></li>
+                    <li><a href="/Error">Contact Us</a></li>
 
                 </ul>
                 <ul>
-                    <li><a href="#">Account</a></li>
-                    <li><a href="#">Redeem Gift Cards</a></li>
-                    <li><a href="#">Privacy</a></li>
-                    <li><a href="#">Speed Test</a></li>
+                    <li><a href="/Error">Account</a></li>
+                    <li><a href="/Error">Redeem Gift Cards</a></li>
+                    <li><a href="/Error">Privacy</a></li>
+                    <li><a href="/Error">Speed Test</a></li>
 
                 </ul>
                 <ul>
-                    <li><a href="#">Media Center</a></li>
-                    <li><a href="#">Buy Gift Card</a></li>
-                    <li><a href="#">Cookie Preferences</a></li>
-                    <li><a href="#">Legal Notices</a></li>
+                    <li><a href="/Error">Media Center</a></li>
+                    <li><a href="/Error">Buy Gift Card</a></li>
+                    <li><a href="/Error">Cookie Preferences</a></li>
+                    <li><a href="/Error">Legal Notices</a></li>
                 </ul>
             </div>
         </div>

@@ -64,9 +64,14 @@
             display: flex;
             flex-direction: row;
             border-radius: 3px;
+            width: auto;
+            margin-left: auto;
+            cursor: pointer;
         }
 
         .profile{
+            display: flex;
+            flex-direction: row;
             .option{
                 display: none;
                 background-color: black;

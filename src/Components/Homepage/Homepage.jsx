@@ -20,9 +20,7 @@ const Homepage = () => {
             <br />
             <div className="search">
               <input type="text" className="box" placeholder="Email" />
-              <span className="try">
-                Try 30 days 
-              </span>
+              <span className="try">Try 30 days</span>
             </div>
             <h4>
               Ready to watch? Enter your email to create or access your account.
@@ -65,21 +63,16 @@ const Homepage = () => {
           <h1>Frequently Asked Questions</h1>
           <div className="quest">
             <div className="textbox"> What is Netflix?</div>
-            <i className="fas fa-plus"></i>
           </div>
           <div className="quest">
-            <div className="textbox"> Where can I watch</div>
-            <i className="fas fa-plus"></i>
+            <div className="textbox"> Where can I watch Netflix?</div>
           </div>
           <div className="quest">
             <div className="textbox">What can I do on Netflix?</div>
-            <i className="fas fa-plus"></i>
           </div>
           <div className="search1">
             <input type="text" className="box1" placeholder="Email"></input>
-            <span className="try1">
-              Try 30 days free <i className="fas fa-chevron-right"></i>
-            </span>
+            <span className="try1">Try 30 days free</span>
           </div>
           <h4>
             Ready to watch? Enter your Email to create or access your account.
