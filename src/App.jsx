@@ -11,7 +11,6 @@ export default function App() {
       <Routes>
           <Route path="/" element={<Homepage />}/>
           <Route path="/login" element={<Login />} />
-          <Route path="/user" element={<User />} />
           <Route path="/Error" element={<NotFoundPage />} />
       </Routes>
     </BrowserRouter>

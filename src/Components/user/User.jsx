@@ -1,6 +1,5 @@
 import React from "react";
 import NavBar from "../NavigatorBar/NavBar";
-import Footer from "../Footer/Footer";
 
 const User = () => {
   return (
