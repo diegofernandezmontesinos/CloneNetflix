@@ -7,7 +7,9 @@ const Homepage = () => {
     <>
       <NavBar />
         <div className="error-container">
+          <h2>
             Error 404
+          </h2>
         </div>
       <Footer />
     </>

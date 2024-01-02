@@ -5,6 +5,8 @@ function NavBar() {
   const [isSigned, setIsSigned] = useState(true);
 
   const [isScrolled, setIsScrolled] = useState(false);
+
+  let userName = 'usuario prueba';
   window.onscroll = () => {
     setIsScrolled(window.pageYOffset === 0 ? false : true);
     return () => (window.onscroll = null);
@@ -44,7 +46,7 @@ function NavBar() {
           ) : (
             <div className="option">
               <div className="profile">
-                <span>Text</span>
+                <span>{userName}</span>
                 <img
                   src="https://images.pexels.com/photos/6899260/pexels-photo-6899260.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
                   alt=""
