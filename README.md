@@ -10,4 +10,7 @@ Frontend:
     npm install -D sass   
 
 4) install React router:
-    npm i -D react-router-dom@latest       
+    npm i -D react-router-dom@latest    
+
+ 5) install axios for the data fetching
+    npm i axios      
