@@ -24,7 +24,7 @@ function NavBar() {
             <a href="/">Homepage </a>
           </span>
           <span>
-            <a href="/Error">Series </a>
+            <a href="/Serie">Series </a>
           </span>
           <span>
             <a href="/Error">Movies </a>

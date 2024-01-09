@@ -1,20 +1,52 @@
-import React from 'react';
+import React from "react";
 import Footer from "../Footer/Footer";
 import SeriesUser from "./Series/SeriesUser";
-import request from '../../API/request';
+import request from "../../API/request";
+import NavBar from "../NavigatorBar/NavBar";
+import './Serie.css';
 
 const Serie = () => {
   return (
     <>
-      <div className="row">
-        <SeriesUser title="Top Rated" fetchURL={request.fetchTrending} />
-        <SeriesUser title="Action Movies" fetchURL={request.fetchActionMoviews} />
-        <SeriesUser title="Comedy Movies" fetchURL={request.fetchComedyMoviews} />
-        <SeriesUser title="Horror Movies" fetchURL={request.fetchHorrorMoviews} />
-        <SeriesUser title="Romance Movies" fetchURL={request.fetchRomanceMoviews} />
-        <SeriesUser title="Docomentaries" fetchURL={request.fetchDocumentaries} />
-        <Footer />
+      <NavBar />
+      <div className="serieContainer">
+        <SeriesUser
+          title="NETFLIX ORIGINALS"
+          fetchURL={request.fetchNetflixOriginals}
+          isLargeRow
+        />
+        <SeriesUser
+          title="Top Rated"
+          fetchURL={request.fetchTrending}
+          isLargeRow
+        />
+        <SeriesUser
+          title="Action Movies"
+          fetchURL={request.fetchActionMoviews}
+          isLargeRow
+        />
+        <SeriesUser
+          title="Comedy Movies"
+          fetchURL={request.fetchComedyMoviews}
+          isLargeRow
+        />
+        <SeriesUser
+          title="Horror Movies"
+          fetchURL={request.fetchHorrorMoviews}
+          isLargeRow
+        />
+        <SeriesUser
+          title="Romance Movies"
+          fetchURL={request.fetchRomanceMoviews}
+          isLargeRow
+        />
+        <SeriesUser
+          title="Documentaries"
+          fetchURL={request.fetchDocumentaries}
+          isLargeRow
+        />
       </div>
+      <Footer />
     </>
   );
 };
