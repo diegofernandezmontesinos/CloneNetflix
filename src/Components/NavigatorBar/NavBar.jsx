@@ -27,7 +27,7 @@ function NavBar() {
             <a href="/Serie">Series </a>
           </span>
           <span>
-            <a href="/Error">Movies </a>
+            <a href="/Movie">Movies </a>
           </span>
           <span>
             <a href="/Error">New and Popular </a>
